@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Envelope Addresses</title>
+    <style>
+        .envelope {
+            width: 600px;
+            height: 400px;
+            border: 1px solid #000;
+            padding: 20px;
+            position: relative;
+        }
+        .sender-address {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+        }
+        .receiver-address {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="envelope">
+        <div class="sender-address">
+            <p>Dilbert H.</p>
+            <p>1234 Anim Street</p>
+            <p>P.O. Box 22222</p>
+        </div>
+        <div class="receiver-address">
+            <p>Someone A. Person</p>
+            <p>5555 Street Avenue</p>
+            <p>Metropolitan, Metropolis 11111</p>
+        </div>
+    </div>
+</body>
+</html>
